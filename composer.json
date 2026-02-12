@@ -1,0 +1,33 @@
+{
+    "name": "stoyishi/telegram-bot",
+    "description": "Telegram Bot API SDK for PHP 7.4+",
+    "type": "library",
+    "keywords": ["telegram", "bot", "api", "sdk", "telegram-bot"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Otabek Hasanov",
+            "email": "otabek@hasanov.uz"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stoyishi\\Bot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stoyishi\\Bot\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
